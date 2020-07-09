@@ -41,6 +41,9 @@ public class ElytraDisruptConfig {
         config.addDefault("enable", true);
         config.addDefault("debugMode", false);
 
+        config.addDefault("enchantments.magnetism.name", "BloodLust");
+        config.addDefault("enchantments.pull.name", "Hooking");
+
         config.addDefault("magnetism.maxCastAngle", 10.0);
         config.addDefault("magnetism.maxTrackingTime", 5.0);
         config.addDefault("magnetism.maxTrackingAngle", 25.0);
